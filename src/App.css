@@ -1,0 +1,175 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.player-card {
+  border: 2px solid black;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.player-card {
+  width: 250px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.player-name {
+  margin-top: 0;
+}
+
+.player-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 10px auto;
+}
+
+.player-details {
+  margin-top: 10px;
+}
+
+.player-breed,
+.player-status {
+  margin: 5px 0;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #ffcc00;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.home-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.home-title {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.home-description {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.home-description:first-of-type {
+  margin-top: 0;
+}
+
+.home-description:last-of-type {
+  margin-bottom: 0;
+}
+
+.home-title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.home-description {
+  font-style: italic;
+}
+
+.home-container {
+  background-color: #f8f8f8;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+  margin-top: 20px;
+  border: 2px solid black;
+}
+
+.form-container h2 {
+  margin-bottom: 10px;
+}
+
+.form-container label {
+  margin-left: 10px;
+}
+
+.form-container input {
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.form-container button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
